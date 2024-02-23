@@ -1698,7 +1698,7 @@ Resources:
     Properties:
       ResourceId: !Ref BooksApiResource
       RestApiId: !Ref AppApi
-      AuthorizationType: None
+      AuthorizationType: NONE
       HttpMethod: OPTIONS
       Integration:
         Type: MOCK
@@ -2003,7 +2003,7 @@ Resources:
     Properties:
       ResourceId: !Ref CartApiResource
       RestApiId: !Ref AppApi
-      AuthorizationType: None
+      AuthorizationType: NONE
       HttpMethod: OPTIONS
       Integration:
         Type: MOCK
@@ -2126,7 +2126,7 @@ Resources:
     Properties:
       ResourceId: !Ref SearchApiResource
       RestApiId: !Ref AppApi
-      AuthorizationType: None
+      AuthorizationType: NONE
       HttpMethod: OPTIONS
       Integration:
         Type: MOCK
@@ -2181,7 +2181,7 @@ Resources:
     Properties:
       ResourceId: !Ref BestsellersApiResource
       RestApiId: !Ref AppApi
-      AuthorizationType: None
+      AuthorizationType: NONE
       HttpMethod: OPTIONS
       Integration:
         Type: MOCK
